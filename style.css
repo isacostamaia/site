@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002244;
+  color: white;
+  padding: 15px 40px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: #f1c40f;
+  color: #002244;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(#004080, #0066cc);
+  color: white;
+}
+
+.team-list {
+  max-width: 600px;
+  margin: 40px auto;
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background-color: #002244;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
